@@ -13,7 +13,7 @@ public class DemoTest {
 	@Test
 	public void LaunchBrowser() {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\yasir.m\\eclipse-workspace\\TestProject\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
 		
 		ChromeOptions options= new ChromeOptions();
 		options.setHeadless(true);
